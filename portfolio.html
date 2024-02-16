@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's SOMthing</title>
+     <link rel="stylesheet" href="C:\Users\Vishal\OneDrive\Desktop\Portfolio\style.css">
+     <script src="https://kit.fontawesome.com/53ad980c15.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Som Mishra</span><br>from India.</h1>
+            </div>
+        </div>
+    </div>
+
+<!-------------------about------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Profile_picture1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Som, a computer science engineer with a passion for software development, web development, and artificial intelligence, I've honed my skills in algorithms, programming, and problem-solving. I'm deeply passionate about the ever-evolving world of technology, where I constantly strive to stay at the forefront of industry trends and advancements. My mission is to harness my technical expertise to help businesses and individuals achieve their goals by creating accessible, innovative, and efficient solutions. Open to collaboration and always eager to expand my knowledge, I'm excited to connect with like-minded individuals who share my enthusiasm for the tech and AI world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML5, CSS3, JavaScript</li>
+                            <li><span>Artificial Intelligence</span><br>Deep Learring, Machine Learning</li>
+                            <li><span>Programming Language</span><br>C, C++, Java, Python</li>
+                            <li><span>Databases</span><br>MySQL, Oracle</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's Degree(B.E./B.tech.)</span><br>Computer Science<br>2018-2022<br>Chandigarh University</li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>Working as a freelancer<br>During this I've worked upon various diverse projects from website development to content writing to enhance my technical skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------Services------------------------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2>
+                <p>I offer expert web development services to bring your vision to life. Whether you need a new website, an upgrade, or additional features, I'm here to create responsive, user-friendly solutions that make a lasting impact.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p>I'm a software developer offering my skills and open to becoming part of your team. I specialize in creating efficient, custom software solutions and I'm ready to collaborate on your projects.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-pen"></i>
+                <h2>Content Writing</h2>
+                <p>I offer tailored content writing services that captivate your audience. From engaging blog posts to persuasive marketing copy, I'm here to craft compelling, well-researched content that delivers your message effectively.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------Projects------------->
+
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project1.jpg">
+                <div class="layer">
+                    <h3>Drowsiness Detection System</h3>  
+                    <p>This detects weather person is sleepy or not. It also alerts the user if found sleepy.</p> 
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg">
+                <div class="layer">
+                    <h3>Online Quizzing Website</h3>  
+                    <p>This website provide the users with quizzing questions and also provides the study material.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+                </div>
+
+            </div>
+             <div class="project">
+                <img src="images/project3.jpg">
+                <div class="layer">
+                    <h3>Shopping Portal</h3>
+                    <p>It helps you shopping from the comfort of your house.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sommishra5912@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+917007525448</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/awe___som/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/itssommishra/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/Som_Mishra_"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+                <a href="resume/SOM_resume.pdf" download class="btn bt2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message!"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; SOMthing. Made with <i class="fa-solid fa-heart"></i> by Som Mishra.</p>
+    </div>
+</div>
+<script>
+    
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");   
+    function openmenu(){
+        sidemeu.style.right="0";
+    } 
+    function closemenu(){
+        sidemeu.style.right="-200px"
+    }
+
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby6HgiJlsHQUuyDhCwoytQcK9vRqNUWDlqBeeDDO0obyMFjUPsjeP_4U94lvKHYOPzE/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
