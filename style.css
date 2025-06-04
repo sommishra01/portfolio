@@ -16,7 +16,7 @@ body{
 header{
 	width: 100%;
 	height: 100px;
-	background-image:url("C:/Users/Vishal/OneDrive/Desktop/Portfolio/image1.png");
+	background-image:url("C:/SB Financial/image1.png");
 	background-size: cover;
 	background-position: centre;
 }
@@ -322,6 +322,55 @@ form btn2{
 	color: #ff004f;
 	}
 
+/*-------------slider---------*/
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+}
+
+.testimonial-slider {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+.slide {
+  width: 100%;
+  padding: 40px;
+  background: #262626;
+  border-radius: 10px;
+  margin-right: 40px;
+  transition: transform 0.5s;
+  font-size: 15px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.slide i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #ff004f;
+}
+.slide h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #fff;
+}
+.slide p {
+  color: #ababab;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0%); }
+  33% { transform: translateX(-100%); }
+  66% { transform: translateX(-200%); }
+  100% { transform: translateX(0%); }
+}
+
+
+
 /*-------------css for small screen----------*/
 
 nav .fa-solid{
@@ -388,3 +437,4 @@ nav .fa-solid{
 	margin-top: -40px;
 	display: block;
 }
+
